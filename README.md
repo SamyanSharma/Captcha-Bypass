@@ -47,17 +47,23 @@ Before running the notebook, ensure you update the `HOME_URL` in the setup cell.
 HOME_URL = "[https://your-authorized-test-target.com](https://your-authorized-test-target.com)"
 ```
 
-## 📋 Prerequisites
-Aside from the Python libraries, the Tesseract OCR Engine must be installed on your system:
+### 📋 Prerequisites
 
-Linux: sudo apt install tesseract-ocr
+Aside from the Python libraries, the **Tesseract OCR Engine** must be installed on your system:
 
-macOS: brew install tesseract
+* **Linux:** `sudo apt install tesseract-ocr`
+* **macOS:** `brew install tesseract`
+* **Windows:** Download the binary from [UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki) and add it to your System PATH.
 
-Windows: Download the binary from UB Mannheim and add it to your System PATH.
+---
 
-## ⚖️ Disclaimer
-IMPORTANT: This project is for educational and authorized security testing purposes only. Unauthorized access to or testing of computer systems is illegal and unethical. The author is not responsible for any misuse of this software. By using this tool, you agree to do so at your own risk and only on systems you own or have explicit permission to test.
+### ⚖️ Disclaimer
 
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+> [!IMPORTANT]
+> This project is for **educational and authorized security testing purposes only**. Unauthorized access to or testing of computer systems is illegal and unethical. The author is not responsible for any misuse of this software. By using this tool, you agree to do so at your own risk and only on systems you own or have explicit permission to test.
+
+---
+
+### 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
